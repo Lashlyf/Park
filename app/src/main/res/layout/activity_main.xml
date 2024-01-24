@@ -161,28 +161,29 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="130dp"
-            android:layout_marginStart="32dp"
+            android:layout_marginStart="15dp"
             android:layout_marginTop="16dp"
-            android:layout_marginEnd="32dp"
+            android:layout_marginEnd="10dp"
+            android:elevation="3dp"
             android:background="@drawable/background_banner">
 
 
             <ImageView
                 android:id="@+id/image5"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginEnd="0dp"
+                android:layout_width="180dp"
+                android:layout_height="115dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/logo" />
+                app:srcCompat="@drawable/parking2" />
 
 
             <TextView
+                android:id="@+id/mainParking"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Main Parking"
-                android:textColor="@color/white"
+                android:textColor="@color/black"
                 android:textSize="16sp"
                 android:textStyle="bold"
                 android:layout_marginStart="4dp"
