@@ -77,6 +77,9 @@ public class SignupActivity extends AppCompatActivity {
                 return;
             }
 
+            Intent intent = new Intent(SignupActivity.this, LoginActivity.class);
+            startActivity(intent);
+
 //            mAuth.createUserWithEmailAndPassword(email, password)
 //                    .addOnCompleteListener(this, new OnCompleteListener<AuthResult>() {
 //                        @Override

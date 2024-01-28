@@ -6,4 +6,6 @@
     <string name="Email">Email</string>
     <string name="email">Enter Your Email</string>
     <string name="recover">Don\'t Remember password? Recover it</string>
+
+    <string name="google_map_api_key">AIzaSyAQyOKFPICJMcEEEa0k3qqcx7E9AevuX0M</string>
 </resources>

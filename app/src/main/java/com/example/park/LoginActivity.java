@@ -30,6 +30,7 @@ public class LoginActivity extends AppCompatActivity {
                 return;
             }else if (!Patterns.EMAIL_ADDRESS.matcher(email).matches()) {
                 loginEmail.setError("Please enter a valid email address");
+                return;
             }
 
             if (TextUtils.isEmpty(password)) {
@@ -38,6 +39,7 @@ public class LoginActivity extends AppCompatActivity {
             }
             if (password.length() < 6) {
                 loginPassword.setError("Password should not be less than six characters");
+                return;
             }
 
             Intent intent = new Intent(LoginActivity.this, MainActivity.class);
